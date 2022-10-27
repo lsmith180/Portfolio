@@ -1,0 +1,71 @@
+/*Color Palette***
+
+Light Cyan #DEFFFC
+Laveder Web #E2E4F6
+Thistle #E7C8DD
+Cameo Pink #DBAFC1
+Mauve Taupe #86626E
+
+
+*/
+
+
+body {
+    margin: 40px
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+      }
+
+.header {
+    background-color: #E7C8DD;
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.profile-image {
+    background-color: #E7C8DD;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2; 
+}
+
+.title {
+    background-color: #DBAFC1;
+    padding: 50px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.logo {
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+}
+
+.cookbook {
+    grid-column: 2 / 2;
+    grid-row: 3 / 3;
+}
+
+.flyer {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.brochure {
+
+}
+
+.footer {
+    background-color: #E7C8DD;
+    padding: 20px;
+}
